@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_view_ed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="45dp"
+        android:text="Welcome to E Defenders"
+        android:textColor="	 #ffd700"
+        android:typeface="sans"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/text_view_edd"
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="45dp"
+            android:text="We create a space where you are safe"
+            android:textColor="	 #ffd700"
+            android:typeface="sans"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/guardbtn"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="300dp"
+            android:background="	#ff0000"
+            android:text="Guard"
+            android:textColor="#ffffff	"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ownerbtn"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="300dp"
+            android:background="#ff0000"
+            android:text="Owner"
+            android:textColor="	#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+</LinearLayout>

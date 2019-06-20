@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">madproject</string>
+    <string name="title_activity_guard_maps">Map</string>
+    <string name="title_activity_maps_owner">Map</string>
+</resources>

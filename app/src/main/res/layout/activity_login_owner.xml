@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".LoginOwner">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login Owner"
+        android:textAlignment="center"
+        android:textColor="#ffd700"
+        android:textSize="20dp"
+        android:layout_marginLeft="100dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter email"
+        android:textColor="#ffd700"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"/>
+
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:hint="Email"
+        android:background="#cdc8b1"
+        android:textColor="	 #000000"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter password"
+        android:textColor="#ffd700"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"
+
+        android:layout_marginTop="25dp"/>
+
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:hint="Password"
+        android:background="#cdc8b1"
+        android:textColor="	 #000000"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:text="Login"
+        android:background="#ff0000"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="110dp"
+        />
+
+</LinearLayout>
